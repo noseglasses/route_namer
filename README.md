@@ -9,12 +9,12 @@ Install the required python packages via the `requirements.txt` file.
 
 #### Linux
 ```sh
-> python3 -m pip install ./requirements.txt
+> python3 -m pip install -r ./requirements.txt
 ```
 
 #### Windows
 ```sh
-> py -m pip install ./requirements.txt
+> py -m pip install -r ./requirements.txt
 ```
 
 ### Setup ntlk Word List
