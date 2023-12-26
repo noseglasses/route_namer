@@ -1,4 +1,4 @@
-# Root Namer
+# Route Namer
 
 A simple climbing route name generator.
 
