@@ -51,4 +51,20 @@ separate packages.
 ```
 
 ## Generate Route Names with Multiple Words
-Use the command line arg `-n` to supply the integer number of words that the route name should consist of.
+Use the command line arg `-w` to supply the integer number of words that the route name should consist of.
+
+## Generate Multiple Names
+Use the command line argument `-n` to generate multiple route names as follows.
+```sh
+> python3 ./route_namer.py -n 10
+Unghompep
+Gintelip
+Phyetovopid
+Tikecum
+Maemerathyde
+Ranundininnrcar
+Litylangopol
+Boblytetrelad
+Phereltemun
+Clicchitiorp
+```

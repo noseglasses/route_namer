@@ -112,8 +112,14 @@ class RouteNamer:
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-n", "--num_words",
+    parser.add_argument("-w", "--num_words",
                         help="The number of words (integer) the generated name should consist of",
+                        type=int,
+                        nargs='?',
+                        default=1)
+
+    parser.add_argument("-n", "--num_names",
+                        help="The number of names (integer) to generate",
                         type=int,
                         nargs='?',
                         default=1)
@@ -121,5 +127,7 @@ if __name__=="__main__":
     args = parser.parse_args()
 
     route_namer = RouteNamer()
-    name = route_namer.generateName(args.num_words)
-    print(name)
+
+    for i in range(0, args.num_names):
+        name = route_namer.generateName(args.num_words)
+        print(name)
