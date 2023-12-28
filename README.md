@@ -60,16 +60,16 @@ Use the command line arg `-w` to supply the integer number of words that the rou
 Use the command line argument `-n` to generate multiple route names as follows.
 ```sh
 > python3 ./route_namer.py -n 10
-Middlebarreneven
-Installmentedness
-Intronomics
-Falselycenarrow
-Equiv
-Motionallaxalent
-Leveralliogracial
-Perfluorganityro
-Staticinglyingness
-Putteratedlying
+Discongenicicat
+Helplesslyingness
+Mentalism
+Greenbriegoingly
+Varitatedlyingly
+Assistive
+Sustainerawayside
+Bottoms
+Receptilage
+Upgradeduance
 ```
 
 ## Acknowledgements

@@ -48,6 +48,9 @@ class SyllableBasedRouteNamer:
 
         for line in lines:
             syllables = line.rstrip().split(";")
+            if len(syllables) < 2:
+                continue
+
             word = "".join(syllables)
 
             #print(word)
