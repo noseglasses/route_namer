@@ -1,16 +1,7 @@
-#!/usr/bin/python3
-
-'''
-This little program demonstrates how pseudo-english words
-can be created based on probabilistic properties of english language
-like distributions of first letters, bigraphs and word lengths.
-'''
-
 from nltk.corpus import words
 from random import choices
-import argparse
 
-class RouteNamer:
+class LetterBasedRouteNamer:
     def __init__(self):
         # Get a Python list of all english words
         self.word_list = words.words()
@@ -109,25 +100,3 @@ class RouteNamer:
         name = " ".join(generated_words)
 
         return name
-
-if __name__=="__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-w", "--num_words",
-                        help="The number of words (integer) the generated name should consist of",
-                        type=int,
-                        nargs='?',
-                        default=1)
-
-    parser.add_argument("-n", "--num_names",
-                        help="The number of names (integer) to generate",
-                        type=int,
-                        nargs='?',
-                        default=1)
-
-    args = parser.parse_args()
-
-    route_namer = RouteNamer()
-
-    for i in range(0, args.num_names):
-        name = route_namer.generateName(args.num_words)
-        print(name)

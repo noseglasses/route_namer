@@ -50,6 +50,9 @@ separate packages.
 > py route_namer.py
 ```
 
+## Argumument Help
+To output a help text that explains command argmuents, add the command line parameter `-h`.
+
 ## Generate Route Names with Multiple Words
 Use the command line arg `-w` to supply the integer number of words that the route name should consist of.
 
@@ -57,14 +60,17 @@ Use the command line arg `-w` to supply the integer number of words that the rou
 Use the command line argument `-n` to generate multiple route names as follows.
 ```sh
 > python3 ./route_namer.py -n 10
-Unghompep
-Gintelip
-Phyetovopid
-Tikecum
-Maemerathyde
-Ranundininnrcar
-Litylangopol
-Boblytetrelad
-Phereltemun
-Clicchitiorp
+Middlebarreneven
+Installmentedness
+Intronomics
+Falselycenarrow
+Equiv
+Motionallaxalent
+Leveralliogracial
+Perfluorganityro
+Staticinglyingness
+Putteratedlying
 ```
+
+## Acknowledgements
+A list of 25000 syllabified english words coming with this repo was found at [https://github.com/gautesolheim/25000-syllabified-words-list/blob/master/25K-syllabified-sorted-alphabetically.txt](https://github.com/gautesolheim/25000-syllabified-words-list/blob/master/25K-syllabified-sorted-alphabetically.txt).
